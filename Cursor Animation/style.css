@@ -50,9 +50,8 @@ html,body{
 }
 #overlay{
 position: absolute;
-background-color: transparent;
-width:102%;
-height: 102%;
+background-color: transparent;width:103%;
+height: 105%;
 z-index: 10;
-
+transform: translate(-2%,-2%);
 }
