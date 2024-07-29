@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Exo 2", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://media.istockphoto.com/id/1385390286/photo/home-desk-at-night-with-copy-space.jpg?s=1024x1024&w=is&k=20&c=9TVPbR5vTn7YtqqORWz9yee7pQmw3_Hp8LniHYyaJUU=);
+  background-size: cover;
+  background-position: center;
+}
+#nav {
+  display: flex;
+  padding: 30px 40px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+#nav h2 {
+  font-size: 25px;
+}
+#nav i {
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#nav #full {
+  width: 35%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.772);
+  padding: 100px 70px;
+  color: black;
+  position: absolute;
+  top: 0;
+  right: -35%;
+  backdrop-filter: blur(8px);
+  opacity: 0;
+}
+#full h1 {
+  padding: 8px 15px;
+  font-weight: 600;
+}
+#full i {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  cursor: pointer;
+  background-color: #111;
+  color: #fff;
+  border-radius: 100%;
+}
